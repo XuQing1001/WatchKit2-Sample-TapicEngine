@@ -1,14 +1,69 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8152.3" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8124.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8077.2"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Tapic Engine Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="TapicEngineInterfaceController" customModule="WatchKit2_Sample_TapicEngine_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" text="WKHapticType:" id="rGa-ns-Jqt"/>
+                        <separator alignment="left" id="fmg-wv-gjF"/>
+                        <group width="1" alignment="left" layout="vertical" id="pnl-bF-tZR">
+                            <items>
+                                <button width="1" alignment="left" title="Notification" id="ft3-sY-uee">
+                                    <connections>
+                                        <action selector="playTapicNotification" destination="AgC-eL-Hgc" id="SFM-1K-PW8"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="DirectionUp" id="ml0-7X-jRP">
+                                    <connections>
+                                        <action selector="playTapicDirectionUp" destination="AgC-eL-Hgc" id="aiG-bx-huY"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="DirectionDown" id="2zd-u1-bvS">
+                                    <connections>
+                                        <action selector="playTapicDirectionDown" destination="AgC-eL-Hgc" id="aIk-ZE-IJg"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Success" id="Qpv-Sf-LD2">
+                                    <connections>
+                                        <action selector="playTapicSuccess" destination="AgC-eL-Hgc" id="le6-5N-EfT"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Failure" id="Hft-Np-9kl">
+                                    <connections>
+                                        <action selector="playTapicFailure" destination="AgC-eL-Hgc" id="FTY-Q6-Rg6"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Retry" id="uC4-W2-unn">
+                                    <connections>
+                                        <action selector="playTapicRetry" destination="AgC-eL-Hgc" id="8eL-hA-uHG"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Start" id="M2x-Jm-mg3">
+                                    <connections>
+                                        <action selector="playTapicStart" destination="AgC-eL-Hgc" id="n8l-fx-LF3"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Stop" id="Igz-Tx-NzF">
+                                    <connections>
+                                        <action selector="playTapicStop" destination="AgC-eL-Hgc" id="eo1-h6-Pci"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Click" id="Naw-Ta-r7C">
+                                    <connections>
+                                        <action selector="playTapicClick" destination="AgC-eL-Hgc" id="XwE-QW-qKh"/>
+                                    </connections>
+                                </button>
+                                <separator alignment="left" id="kVh-Lm-y9c"/>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
             </objects>
         </scene>
     </scenes>

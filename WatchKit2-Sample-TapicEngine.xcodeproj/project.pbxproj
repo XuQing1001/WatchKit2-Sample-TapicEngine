@@ -16,7 +16,7 @@
 		0D7142591B5209C500DA07E8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7142571B5209C500DA07E8 /* Interface.storyboard */; };
 		0D71425B1B5209C500DA07E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D71425A1B5209C500DA07E8 /* Assets.xcassets */; };
 		0D7142621B5209C500DA07E8 /* WatchKit2-Sample-TapicEngine WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0D7142611B5209C500DA07E8 /* WatchKit2-Sample-TapicEngine WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		0D7142671B5209C500DA07E8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7142661B5209C500DA07E8 /* InterfaceController.swift */; };
+		0D7142671B5209C500DA07E8 /* TapicEngineInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7142661B5209C500DA07E8 /* TapicEngineInterfaceController.swift */; };
 		0D7142691B5209C500DA07E8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7142681B5209C500DA07E8 /* ExtensionDelegate.swift */; };
 		0D71426B1B5209C500DA07E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D71426A1B5209C500DA07E8 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -76,7 +76,7 @@
 		0D71425A1B5209C500DA07E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D71425C1B5209C500DA07E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D7142611B5209C500DA07E8 /* WatchKit2-Sample-TapicEngine WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchKit2-Sample-TapicEngine WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D7142661B5209C500DA07E8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0D7142661B5209C500DA07E8 /* TapicEngineInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapicEngineInterfaceController.swift; sourceTree = "<group>"; };
 		0D7142681B5209C500DA07E8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		0D71426A1B5209C500DA07E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D71426C1B5209C500DA07E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -146,7 +146,7 @@
 		0D7142651B5209C500DA07E8 /* WatchKit2-Sample-TapicEngine WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				0D7142661B5209C500DA07E8 /* InterfaceController.swift */,
+				0D7142661B5209C500DA07E8 /* TapicEngineInterfaceController.swift */,
 				0D7142681B5209C500DA07E8 /* ExtensionDelegate.swift */,
 				0D71426A1B5209C500DA07E8 /* Assets.xcassets */,
 				0D71426C1B5209C500DA07E8 /* Info.plist */,
@@ -295,7 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D7142691B5209C500DA07E8 /* ExtensionDelegate.swift in Sources */,
-				0D7142671B5209C500DA07E8 /* InterfaceController.swift in Sources */,
+				0D7142671B5209C500DA07E8 /* TapicEngineInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
